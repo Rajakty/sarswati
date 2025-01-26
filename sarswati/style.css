@@ -1,0 +1,134 @@
+.whole-content{
+    background:black;
+}
+.whole-content h1{
+    color:red;
+    background-color:lightcoral;
+    font-size:10em;
+    width:"100px";
+
+
+}
+    .whole-content h2{
+    text-align:center;
+    font-size:7em;
+    font-weight:bold;
+    color:red;
+    background:linear-gradient(90deg,#ff0000,#00ff00,#0000ff);
+    background-size:200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:shine 50s infinite linear;
+
+}
+    .whole-content h3{
+        text-align:center;
+        font-size:7em;
+        font-weight:bold;
+        color:blue;
+        background:linear-gradient(90deg,#ff0000,#00ff00,#0000ff);
+        background-size:200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation:shine 50s infinite linear;
+    
+        
+        
+    
+}
+    
+
+    .btn-box{
+        width:345px;
+        display:flex;
+        gap:2em;
+    }
+    .btn-2{
+        padding:15px 28px;
+        background-color:orangered;
+        color:white;
+        border:2px solid black;
+        border-radius:8px;
+        font-size:20px;
+        letter-spacing:1px;
+        font-weight:600;
+        transition:0.3s ease;
+        cursor:pointer;
+    }
+
+.btn-2:hover{
+    background-color:white;
+    color:orangered;
+}
+.img-box img{
+    border-radius:100%;
+    box-shadow:0 0 25px violet,
+               0 0 50px red;
+    text-align:center;
+
+}
+.video{
+    width:640px;
+    height:360px;
+    border:5px solid red;
+    border-radius:15px;
+    transition:transform 1s ease-in-out,border-color 1s ease;
+    align-items:center;
+    justify-content: center;
+}
+.video hover{
+    transform:scale(1,1);
+    border-color:#f00;
+}
+@keyframes rotatevideo{
+    0%{transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:orangered;
+}
+::-webkit-scrollbar-track{
+    background-color:rgba(0,0,0);
+    width: 50px;
+}
+
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:12% 8%;
+    gap:10em; 
+    background:black;
+}
+  
+.about-img img{
+    position:relative;
+    width:450px;
+    box-shadow:0 0 25px yellow,
+               0 0 50px orangered;
+    border-radius:30%;  
+}      
+.about-content h2{
+    text-align:left;
+    color:yellow;
+    font-size:66px;
+}
+.about-content h3{
+    font-size:62px;
+    color:pink;
+}
+.about-content p{
+    color:white;
+    font-size:30px;
+    margin:2em 0 3em;
+}
+
+
+
+
